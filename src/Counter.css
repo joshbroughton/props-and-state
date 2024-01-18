@@ -1,0 +1,49 @@
+.Counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+
+  small {
+    font-size: 14px;
+    color: #555;
+  }
+
+  h1 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+
+  button {
+    font-size: 18px;
+    padding: 8px 16px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  button:active {
+    background-color: #004080;
+  }
+
+.CounterCard {
+  border: 1px solid #ddd;
+  max-width: fit-content;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.CounterCard:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
